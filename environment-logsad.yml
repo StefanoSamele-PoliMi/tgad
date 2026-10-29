@@ -1,0 +1,9 @@
+name: tgad-logsad
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - git
+  - pip:
+      - -r requirements-logsad-inference.txt

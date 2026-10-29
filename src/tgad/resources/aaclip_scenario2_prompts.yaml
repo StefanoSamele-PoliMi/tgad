@@ -1,0 +1,94 @@
+metadata:
+  scenario: 2
+  dataset: MVTec AD per-part extension
+  resolution: 224
+  model: AA-CLIP
+  paper_appendix: D.3
+  # One component keyword per subclass, inserted verbatim into the Appendix C.3 AA-CLIP
+  # normal/abnormal states and templates; multi-part subclasses join components with "AND".
+  prompts_per_subclass: 1
+pools:
+  cable1:
+  - light-blue insulation layer
+  cable2:
+  - green cable
+  cable3:
+  - blue cable
+  cable4:
+  - gray cable
+  cable1_cable2:
+  - light-blue insulation layer AND green cable
+  cable1_cable3:
+  - light-blue insulation layer AND blue cable
+  cable2_cable3:
+  - green cable AND blue cable
+  cable2_cable4:
+  - green cable AND gray cable
+  cable3_cable4:
+  - blue cable AND gray cable
+  cable2_cable3_cable4:
+  - green cable AND blue cable AND gray cable
+  capsule1:
+  - 500 white writing
+  capsule2:
+  - left black part
+  capsule3:
+  - right reddish-orange part
+  capsule1_capsule3:
+  - 500 white writing AND right reddish-orange part
+  capsule2_capsule3:
+  - left black part AND right reddish-orange part
+  hazelnut1:
+  - shell
+  hazelnut2:
+  - hilum
+  hazelnut1_hazelnut2:
+  - shell AND hilum
+  metal_nut1:
+  - outer hexagonal body
+  metal_nut2:
+  - central threaded hole
+  metal_nut1_metal_nut2:
+  - outer hexagonal body AND central threaded hole
+  pill1:
+  - plain surface
+  pill2:
+  - embossed letters "FF"
+  pill1_pill2:
+  - plain surface AND embossed letters "FF"
+  screw1:
+  - threaded shaft
+  screw2:
+  - screw head
+  screw3:
+  - neck
+  toothbrush1:
+  - plastic base
+  toothbrush2:
+  - white bristles
+  toothbrush3:
+  - colored bristles
+  toothbrush1_toothbrush2:
+  - plastic base AND white bristles
+  toothbrush2_toothbrush3:
+  - white bristles AND colored bristles
+  toothbrush1_toothbrush2_toothbrush3:
+  - plastic base AND white bristles AND colored bristles
+  transistor1:
+  - plastic body
+  transistor2:
+  - metalic legs
+  transistor1_transistor2:
+  - plastic body AND metalic legs
+  zipper1:
+  - interior fabric
+  zipper2:
+  - zipper teeth
+  zipper3:
+  - fabric at the edge
+  zipper1_zipper2:
+  - interior fabric AND zipper teeth
+  zipper1_zipper3:
+  - interior fabric AND fabric at the edge
+  zipper2_zipper3:
+  - zipper teeth AND fabric at the edge

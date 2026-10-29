@@ -1,0 +1,179 @@
+metadata:
+  scenario: 2
+  dataset: MVTec AD per-part extension
+  resolution: 224
+  paper_appendix: D.1
+  prompt_sampling: one of three prompts uniformly per image with a fixed seed
+pools:
+  cable1:
+  - Focus only on examining the light blue insulator of the conductor for any flaws.
+  - Assess solely the light blue insulation within the conductor for signs of damage.
+  - Pay close attention only to the insulation layer in the conductor, which is light blue, for any potential issues.
+  cable2:
+  - Focus solely on the green wire to check for any issues.
+  - Verify the integrity of the green cable only before proceeding.
+  - Examine the green cable only in detail to ensure it’s in good condition.
+  cable3:
+  - Focus solely on the blue cable for any imperfections during inspection.
+  - Attention must be directed exclusively towards the blue cable when examining for flaws.
+  - During the examination process, ensure that you closely examine the blue cable only without looking at the other cables.
+  cable4:
+  - Focus exclusively on the gray wire when examining it for potential flaws.
+  - It is crucial to scrutinize solely the gray wire within this setting.
+  - For the purposes of analysis, concentrate solely on the gray cable in this particular scene.
+  cable1_cable2:
+  - For a thorough examination, focus solely on the light blue coating and the green wire in this image.
+  - When conducting a meticulous inspection, pay close attention to the light-blue insulation and the green cable depicted
+    here.
+  - To ensure the quality of these components, closely examine only the green wire and the light-blue coating shown in the
+    image.
+  cable1_cable3:
+  - Focus solely on the light blue cover and blue wire, looking out for any imperfections or faults.
+  - Examine closely solely the light-blue insulation layer and the blue cable for any potential issues.
+  - Pay close attention only to the light blue covering and the blue conductor within the container, searching for signs of
+    defect or malfunction.
+  cable2_cable3:
+  - Pay attention solely to the green wire and blue wire in this image for any potential issues.
+  - Examine carefully only the green wire and the blue wire within the image for any sign of defects.
+  - Look closely only at the green cable and the blue cable visible in the photo for any flaws or imperfections.
+  cable2_cable4:
+  - Examine just the green wire and silver wire for potential flaws.
+  - Look closely only at the green conductor and gray tube to ensure their quality.
+  - Check solely the green line and gray pipe for any imperfections.
+  cable3_cable4:
+  - Focus solely on examining the blue and gray cables for possible flaws.
+  - Attention should be confined to inspecting the blue and gray cable lines only for any defects.
+  - Check only the blue and gray cables for potential issues during the inspection process.
+  cable2_cable3_cable4:
+  - Pay attention solely to the green cable, blue cable, and gray cable when examining the wires.
+  - Focus on evaluating only the condition of the green cable, blue cable, and gray cable for any faults.
+  - Examine exclusively the green cable, blue cable, and gray cable for possible defects.
+  capsule1:
+  - Ensure to scrutinize solely the 500-word content for any imperfections.
+  - Check only for flaws in the lines of white text.
+  - Review specifically the 500-word content marked by white characters.
+  capsule2:
+  - Take note to scrutinize just the black portion on the left for any signs of imperfection.
+  - It is crucial to examine solely the black section on the left when assessing for flaws.
+  - Be vigilant and carefully check only the black area located on the left side for any defects.
+  capsule3:
+  - Examine solely the red/orange section on the right for any flaws.
+  - Assess just the proper hue of red/orange on the right for any imperfections.
+  - Check exclusively the accurate right reddish-orange area for any defects.
+  capsule1_capsule3:
+  - Examine just the white text and orange side of the pill for any irregularities or imperfections.
+  - Look closely only at the small white label and the larger reddish-orange portion of the pill for potential issues.
+  - Focus exclusively on the 500 white writing and the right orange side of the capsule for defects that may be present.
+  capsule2_capsule3:
+  - Look closely solely at the left black section and the right reddish-orange portion of the pill for any imperfections.
+  - Examine the pill by focusing just on the dark left side and the vibrant red right side for any flaws.
+  - Investigate both ends of the pill, the left black part and the right orange part for any defects or issues.
+  hazelnut1:
+  - Check just the outer casing for any flaws before consumption.
+  - Examine solely the hard outer shell for imperfections when assessing quality.
+  - Take a close look only at the exterior shell to ensure it’s in good condition.
+  hazelnut2:
+  - Inspect only the hilum area, do not consider the outer shell.
+  - Focus solely your attention on the circular scarred base of the nut, ignoring the shell surface.
+  - Evaluate only the attachment point of the hazelnut (hilum), not the surrounding shell.
+  hazelnut1_hazelnut2:
+  - Pay close attention only to the outer casing and the attachment point of the hazelnut, checking for any imperfections.
+  - Examine solely the shell and hilum of the hazelnut, looking out for any signs of damage or flaw.
+  - Focus solely on the shell and hilum of the walnut when assessing its quality.
+  metal_nut1:
+  - Examine only the outer, hexagonal form for any imperfections before use.
+  - Before incorporating the object into a system, closely observe only its exterior hexagonal shape for potential flaws.
+  - Prior to employing it, carefully scrutinize exclusively the external hexagonal body for any defects that may hinder functionality.
+  metal_nut2:
+  - Focus solely on the central, threaded opening to identify any imperfections.
+  - Examine the core of the hole only for signs of damage or irregularities.
+  - Study just the threaded center of the hole for defects before proceeding with further actions.
+  metal_nut1_metal_nut2:
+  - Examine the exterior hexagonal shape and the core threaded aperture for any imperfections.
+  - Verify the integrity of the outer hexagonal body as well as the central hole with threading, inspecting them closely.
+  - Check both the external hexagonal structure and the inner threaded opening for signs of damage or flaw before proceeding.
+  pill1:
+  - Carefully examine only the flat side of the pill capsule for any imperfections.
+  - It’s important to thoroughly inspect just the upper surface of the pill cap for any flaws before use.
+  - Before ingesting, please check only the top part of the pill container for any defects or issues that may affect its performance.
+  pill2:
+  - Take a closer look solely at the imprinted ‘FF’ on the pill to ensure its quality.
+  - Verify only if the embossed letters FF on the pill are flawless for authenticity purposes.
+  - Check for any imperfections exclusively in the embossed text FF on the pill before consumption.
+  pill1_pill2:
+  - Scrutinize solely the flat expanse and engraved characters ‘FF’ on the tablet to look for any flaws.
+  - Focus your attention purely on the tablet’s smooth exterior and imprinted text ‘FF’ when checking for imperfections.
+  - Pay close attention to the even surface and inscribed letters ‘FF’ on the pill while examining for any defects.
+  screw1:
+  - Look only at the spiral-threaded section of the screw. Ignore the flat head and the smooth neck.
+  - Focus solely on the midsection with threads. Do not evaluate the screw head or neck.
+  - Your attention should be restricted to the part where the screw has helical grooves. Disregard the rest.
+  screw2:
+  - Examine just the top of the screw for any imperfections.
+  - Assess exclusively the head of the screw for potential issues.
+  - Check solely the portion where you would insert a tool into the screw for any flaws.
+  screw3:
+  - Assess only the neck of the screw for any imperfections before proceeding with installation.
+  - Examine exclusively the shaft without the threads of the screw before using to ensure it’s in good condition.
+  - Check only the screw neck thoroughly for any issues prior to use.
+  toothbrush1:
+  - Assess only the quality of the base by checking for any flaws.
+  - Verify exclusively if the plastic base is in good condition before use.
+  - Ensure just that the plastic base component is free from damage before proceeding with its use.
+  toothbrush2:
+  - Focus solely on the white bristles when evaluating for flaws.
+  - Examine only the bristles carefully for any imperfections, paying particular attention to the white ones.
+  - When assessing the toothbrush, concentrate exclusively on the bristles’ color and quality specifically focusing on the
+    white bristles.
+  toothbrush3:
+  - Examine solely the colored bristles of a toothbrush for any flaws.
+  - Assess only the colored bristles on a toothbrush for any imperfections.
+  - Scrutinize exclusively the toothbrush’s colored bristles for any defects during inspection.
+  toothbrush1_toothbrush2:
+  - Examine only the white bristles and the base of the brush, focusing on any imperfections.
+  - Pay close attention just to both the plastic handle and the white bristles for any signs of damage or defects.
+  - Carefully check solely the white bristles and the plastic base for any flaws before using it.
+  toothbrush2_toothbrush3:
+  - Examine solely the white bristles and colorful bristles on the brush for any flaws.
+  - Look over the white bristles and colorful bristles of the brush only to identify any issues.
+  - Inspect solely the brush’s white bristles and colored bristles to ensure they are in good condition.
+  toothbrush1_toothbrush2_toothbrush3:
+  - Focus on the plastic handle, white bristles, and colored bristles for any imperfections during inspection.
+  - Evaluate solely the plastic stand, white brushes, and colored brushes to identify any flaws.
+  - Assess merely the plastic grip, white brush tips, and blue brush heads for any defects before use.
+  transistor1:
+  - Focus solely on the plastic casing when checking for imperfections.
+  - Take a close look only at the plastic exterior when evaluating its condition.
+  - Look just at the plastic part and nothing else when examining for flaws.
+  transistor2:
+  - Examine solely the metallic legs carefully to identify any imperfections.
+  - Verify if there are any flaws in the metalic components during inspection.
+  - Look for any structural issues exclusively on the metallic elements of the object.
+  transistor1_transistor2:
+  - Check only the plastic casing and metallic connectors for any flaws.
+  - Examine just the plastic part and the metal contacts for any imperfections.
+  - Assess only the plastic cover and the metal leads for any signs of damage.
+  zipper1:
+  - Focus only on the inner texture of the material to identify any imperfections.
+  - When examining, pay close attention solely to the internal fabric component.
+  - Check for defects within the inner fabric’s structure only.
+  zipper2:
+  - Focus solely on examining the zipper’s teeth for any imperfections.
+  - Examine only the teeth of the zipper to identify any flaws.
+  - Assess the condition of the zipper’s teeth only, looking for signs of damage.
+  zipper3:
+  - Focus solely on examining the fabric at the edge of the item for any flaws.
+  - Assess just the material specifically located at the rim of the object for any imperfections.
+  - Examine exclusively the fabric present at the periphery of the item to determine if there are any defects.
+  zipper1_zipper2:
+  - Examine closely just the inner fabric and zipper mechanism to identify any flaws.
+  - Look carefully only at the material inside and the zipper’s teeth for any imperfections.
+  - Assess solely the internal fabric and the zipper’s alignment for potential defects.
+  zipper1_zipper3:
+  - Examine only the inner material and fabric along the perimeter for any imperfections.
+  - Evaluate just the textile’s internal and border areas for any flaws.
+  - Scrutinize the inside fabric and edge fabric only for potential issues.
+  zipper2_zipper3:
+  - Assess just the zipper fastenings and the border fabric for any flaws.
+  - Carefully examine only the teeth of the zipper and the border material at the edge for any damage or issues.
+  - Focus solely on inspecting the zipper’s engagement points and the fabric at the edge for any defects.

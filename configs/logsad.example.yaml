@@ -1,0 +1,14 @@
+# Shared by --model logsad (released pipeline) and --model logsad_fms (with the
+# foreground-masking extension). Run LogSAD in its own environment (environment-logsad.yml).
+logsad:
+  # scripts/fetch_logsad.sh checks out the official code at the pinned commit.
+  official_repo: ../models/LogSAD
+
+  # OpenCLIP model LogSAD loads; fetched from the Hugging Face Hub on first use.
+  clip_model: hf-hub:laion/CLIP-ViT-L-14-DataComp.XL-s13B-b90K
+
+  # cuda, cuda:N, or cpu.
+  device: cuda:0
+
+  # Seeds the memory-bank coresets (upstream: 42).
+  seed: 42

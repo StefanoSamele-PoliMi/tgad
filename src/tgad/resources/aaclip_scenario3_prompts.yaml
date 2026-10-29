@@ -1,0 +1,54 @@
+metadata:
+  scenario: 3
+  dataset: Assembled Panel Dataset
+  resolution: 224
+  model: AA-CLIP
+  paper_appendix: E.3
+  # Keywords are inserted verbatim into the Appendix C.3 AA-CLIP normal/abnormal state
+  # templates. AA-CLIP is evaluated zero-shot only, with all three Standard AD keywords
+  # under both spatial strategies (Appendix Tables 10 and 11).
+  standard_variants:
+    direct_resize:
+      0: [very_detailed, simple, minimal]
+    pad_to_square:
+      0: [very_detailed, simple, minimal]
+  preprocessing:
+  - direct_resize
+  - pad_to_square
+standard:
+  minimal: electrical control panel
+  simple: industrial PCB assembly
+  very_detailed: industrial electrical control panel with green PCBs, white relays, orange terminals, and multicolored
+    cables
+# Keyed by the defect each keyword describes (A_k = err_k, see the Assembled Panel
+# categories table in the README).
+per_error:
+  A1: left and right power ports; cable colors and positions
+  A2: left and right EV ports; green, blue, and brown cables
+  A3: left and right EV ports; orange and white cables
+  A4: left and right IO power cables; upper and lower terminal-block positions
+  A5: black-box areas on left and right PCB; label placement
+  A6: top of left and right PCB; missing number labels
+  A7: panel-mounting screws; rubber rings
+  A8: area near the EV port; red protective cap
+  A9: top and bottom power ports; missing power wires
+  A10: left and right EV ports; missing EV-port wires
+  A11: panel and PCB screws; missing fasteners
+  A12: right current sensor; routing of the brown and blue cables
+  A13: damaged PCB regions; scratches, cracks, or missing components
+  A14: right current sensor; unplugged wires
+coco_error_to_paper_id:
+  err_1: A1
+  err_2: A2
+  err_3: A3
+  err_4: A4
+  err_5: A5
+  err_6: A6
+  err_7: A7
+  err_8: A8
+  err_9: A9
+  err_10: A10
+  err_11: A11
+  err_12: A12
+  err_13: A13
+  err_14: A14

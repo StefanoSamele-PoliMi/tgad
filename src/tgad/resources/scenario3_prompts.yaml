@@ -1,0 +1,91 @@
+metadata:
+  scenario: 3
+  dataset: Assembled Panel Dataset
+  resolution: 224
+  paper_appendix: E.1
+  # Default Standard AD sweep (Appendix Tables 10 and 11): strategy -> shots -> variants.
+  standard_variants:
+    direct_resize:
+      0: [very_detailed, detailed, simple, minimal]
+      1: [very_detailed, minimal]
+    pad_to_square:
+      0: [very_detailed, minimal]
+      1: [very_detailed, minimal]
+  preprocessing:
+  - direct_resize
+  - pad_to_square
+standard:
+  minimal: Is there an error in the image?
+  simple: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without any damage,
+    flaw, defect, scratch, hole or broken part. Is there any anomaly in the image?
+  detailed: This is a photo of an electrical panel for anomaly detection. It should contain two symmetrical circuit boards
+    on either end, with three relays, properly terminated wiring, and no disconnected or floating wires. The wiring should
+    be clean, secured with clips or zip ties, and each cable should be fully connected. Is there any anomaly in the image?
+  very_detailed: This is a photo of an electrical control panel designed for industrial applications. The panel should contain
+    two identical green printed circuit boards mounted symmetrically at both ends. Each board must include three white relays
+    aligned properly, labeled with part numbers, and connected to orange terminal blocks. The wiring should be cleanly routed
+    using multicolored cables (e.g., yellow, brown, blue, purple, orange, and white), all securely connected to their respective
+    terminals. In the central section, there should be two identical electromechanical actuators (such as contactors or switches),
+    each with a red safety latch. The wiring should be neatly bundled and held down with zip ties and cable clips. All cables
+    must be terminated properly; no wires should be loose, floating, or disconnected. Additionally, a flat ribbon cable may
+    be present for communication between components, and all wiring should be consistent with standard color codes and labeling
+    (e.g., L1, L2, L3). The panel should not have any burn marks, corrosion, broken solder joints, missing components, or
+    any visual signs of damage. Is there any anomaly in the image?
+per_error:
+  A1: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without swapped colors
+    in power cables. Cables of different colors (e.g., blue and brown) should not be swapped at the left and right power ports.
+    The correct ordering of cables viewed from top to bottom is that the left port should have brown, blue, green while the
+    right port should have green, blue, brown. Is there any anomaly in the image?
+  A2: 'This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without swapped
+    large cables in the EV port. Green and blue cables must not be switched between ports. The correct ordering viewed from
+    top to bottom is: brown, green, blue on both ports. Is there any anomaly in the image?'
+  A3: 'This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without swapped
+    small cables in the EV port. Orange and white cables must not be switched between ports. The correct ordering viewed from
+    top to bottom is: white, orange. Is there any anomaly in the image?'
+  A4: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without swapped same-color
+    upper and lower IO power cables. Both cables, oriented toward the left side of the image for the left PCB, must be correctly
+    connected to their corresponding PCB terminal blocks (orange power terminal blocks). The cables must remain in their designated
+    positions and must not be swapped between the upper and lower power ports. Is there any anomaly in the image?
+  A5: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without a misplaced
+    label. Number labels should be correctly placed on top of the black box in the left and right PCB. Is there any anomaly
+    in the image?
+  A6: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without a missing
+    label. All required number labels must be present on top of the black box in the left and right PCB. Is there any anomaly
+    in the image?
+  A7: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without a missing
+    rubber ring. Rubber rings should be present on all screws that fasten the metal panel. Only the panel-mounting screws
+    need to be inspected; PCB screws are not part of this check. Is there any anomaly in the image?
+  A8: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without a missing
+    red cap. The red protective cap near the EV port should always be attached. Is there any anomaly in the image?
+  A9: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without missing power
+    connection wires. All expected power wires must be connected to the top and bottom ports. Is there any anomaly in the
+    image?
+  A10: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without missing
+    wires on EV port connections. All EV port wires should be fully connected. Is there any anomaly in the image?
+  A11: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without missing
+    screws. All screws must be in place on the panel and PCB. Is there any anomaly in the image?
+  A12: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without incorrect
+    wire routing through the current sensor on the right. In the correct configuration, exactly two wires, the brown and the
+    blue power cables, must pass through the right current sensor. These two cables should be routed together through the
+    sensor opening, and no additional or missing wires should occur. Is there any anomaly in the image?
+  A13: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without a scratched
+    or broken PCB. The board should not have coating damage, scratches, broken components, or missing components. Is there
+    any anomaly in the image?
+  A14: This is a photo of an electrical panel for anomaly detection, which should be complete and intact, without unplugged
+    wires on the current sensor. All wires passing through the right current sensor must be fully connected. Is there any
+    anomaly in the image?
+coco_error_to_paper_id:
+  err_1: A1
+  err_2: A2
+  err_3: A3
+  err_4: A4
+  err_5: A5
+  err_6: A6
+  err_7: A7
+  err_8: A8
+  err_9: A9
+  err_10: A10
+  err_11: A11
+  err_12: A12
+  err_13: A13
+  err_14: A14

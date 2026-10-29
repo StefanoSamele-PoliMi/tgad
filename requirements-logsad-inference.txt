@@ -1,0 +1,22 @@
+# LogSAD runs in its own environment: the vendored anomalib code needs torch >= 2, while
+# AnomalyGPT pins torch 1.13. Versions follow the upstream LogSAD requirements.txt for
+# every package the TGAD adapter uses.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+numpy==1.23.1
+scipy==1.13.1
+scikit-learn==1.2.2
+Pillow==9.4.0
+PyYAML==6.0.1
+tqdm==4.66.4
+ftfy==6.1.1
+regex==2023.10.3
+huggingface-hub==0.28.1
+safetensors==0.4.3
+sentencepiece==0.1.99
+protobuf==4.25.3
+timm==0.9.16
+open-clip-torch==2.24.0
+rich==13.7.1
+-e .

@@ -1,0 +1,26 @@
+anomalygpt:
+  # scripts/fetch_anomalygpt.sh checks out the official code at the pinned commit.
+  official_repo: ../models/AnomalyGPT
+
+  # Prepare these checkpoints following the official AnomalyGPT README.
+  imagebind_checkpoint: ../models/AnomalyGPT/pretrained_ckpt/imagebind_ckpt/imagebind_huge.pth
+  vicuna_checkpoint: ../models/AnomalyGPT/pretrained_ckpt/vicuna_ckpt/7b_v0
+  pandagpt_delta: ../models/AnomalyGPT/pretrained_ckpt/pandagpt_ckpt/7b/pytorch_model.pt
+
+  # The MVTec experiments use the checkpoint trained on VisA, as in official test_mvtec.py.
+  anomalygpt_delta: ../models/AnomalyGPT/code/ckpt/train_visa/pytorch_model.pt
+
+  device: cuda:0
+
+  # extract skips autoregressive response generation and returns the same anomaly map.
+  # Set to generate for strict end-to-end language-generation parity.
+  inference_path: extract
+
+  # prompt: the zero-shot map's normal text embedding is the ImageBind embedding of the
+  # benchmark prompt itself; the abnormal side keeps the upstream templates.
+  # upstream: unmodified official behavior, where only a class word found in the prompt
+  # (or 'object') fills fixed normal/abnormal templates.
+  text_conditioning: prompt
+  max_target_length: 512
+  top_p: 0.1
+  temperature: 1.0

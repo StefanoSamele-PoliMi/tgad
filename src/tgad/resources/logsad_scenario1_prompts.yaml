@@ -1,0 +1,63 @@
+metadata:
+  scenario: 1
+  dataset: MVTec AD
+  resolution: 224
+  model: LogSAD
+  paper_appendix: C.2, Table 12
+  # Foreground keyword forms of Table 12 (Simple -> class_name, Very Detailed -> detailed,
+  # Minimal -> generic); the background keyword is "background" in all cases. The released
+  # pipeline (--model logsad, the paper's Scenario 1 runs) does not use the keywords; the
+  # foreground-masking extension (--model logsad_fms) masks the map with them (Eq. 2).
+  zero_shot_variants: []
+  one_shot_variants: [class_name, detailed, generic]
+  full_shot_variants: [class_name, detailed, generic]
+class_order: [bottle, cable, capsule, carpet, grid, hazelnut, leather, metal_nut, pill, screw, tile, toothbrush, transistor, wood, zipper]
+variants:
+  class_name:
+    bottle: {foreground: [bottle], background: [background]}
+    cable: {foreground: [cable], background: [background]}
+    capsule: {foreground: [capsule], background: [background]}
+    carpet: {foreground: [carpet], background: [background]}
+    grid: {foreground: [grid], background: [background]}
+    hazelnut: {foreground: [hazelnut], background: [background]}
+    leather: {foreground: [leather], background: [background]}
+    metal_nut: {foreground: [metal nut], background: [background]}
+    pill: {foreground: [pill], background: [background]}
+    screw: {foreground: [screw], background: [background]}
+    tile: {foreground: [tile], background: [background]}
+    toothbrush: {foreground: [toothbrush], background: [background]}
+    transistor: {foreground: [transistor], background: [background]}
+    wood: {foreground: [wood], background: [background]}
+    zipper: {foreground: [zipper], background: [background]}
+  detailed:
+    bottle: {foreground: [glass bottle], background: [background]}
+    cable: {foreground: [electric cable], background: [background]}
+    capsule: {foreground: [medicine capsule], background: [background]}
+    carpet: {foreground: [floor mat], background: [background]}
+    grid: {foreground: [metal grid], background: [background]}
+    hazelnut: {foreground: [nut], background: [background]}
+    leather: {foreground: [leather material], background: [background]}
+    metal_nut: {foreground: [hex nut], background: [background]}
+    pill: {foreground: [tablet], background: [background]}
+    screw: {foreground: [metal screw], background: [background]}
+    tile: {foreground: [ceramic tile], background: [background]}
+    toothbrush: {foreground: [brush], background: [background]}
+    transistor: {foreground: [electronic component], background: [background]}
+    wood: {foreground: [wooden surface], background: [background]}
+    zipper: {foreground: [clothing zipper], background: [background]}
+  generic:
+    bottle: {foreground: [object], background: [background]}
+    cable: {foreground: [object], background: [background]}
+    capsule: {foreground: [object], background: [background]}
+    carpet: {foreground: [texture], background: [background]}
+    grid: {foreground: [texture], background: [background]}
+    hazelnut: {foreground: [object], background: [background]}
+    leather: {foreground: [texture], background: [background]}
+    metal_nut: {foreground: [object], background: [background]}
+    pill: {foreground: [object], background: [background]}
+    screw: {foreground: [object], background: [background]}
+    tile: {foreground: [texture], background: [background]}
+    toothbrush: {foreground: [object], background: [background]}
+    transistor: {foreground: [object], background: [background]}
+    wood: {foreground: [texture], background: [background]}
+    zipper: {foreground: [object], background: [background]}

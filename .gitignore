@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+outputs/
+# Development tests (kept locally, not released)
+tests/
+# Upstream clones fetched by scripts/fetch_*.sh (the *_REVISION pins are committed)
+models/*/
+*.pt
+*.pth
+
+# Local machine / cluster configuration (contains site-specific paths and credentials)
+.hpc/
+.vscode/
+AGENTS.MD
+configs/*.local.yaml
+
+# APD download (research-only license, no redistribution)
+data/apd/
+
+# Earlier standalone APD loader, superseded by src/tgad/datasets/apd_coco.py
+data/benchmark_annotations/

@@ -1,0 +1,26 @@
+aaclip:
+  # scripts/fetch_aaclip.sh checks out the official code at the pinned commit.
+  official_repo: ../models/AA-CLIP
+
+  # OpenAI CLIP ViT-L/14@336px weights (upstream expects them at model/ViT-L-14-336px.pt).
+  clip_checkpoint: ../models/AA-CLIP/model/ViT-L-14-336px.pt
+
+  # Adapters from upstream train.py on VisA at 224x224 (see docs/SETUP.md). The paper
+  # uses the image adapter saved after the last (20th) epoch.
+  text_adapter: ../checkpoints/aaclip/visa224/text_adapter.pth
+  image_adapter: ../checkpoints/aaclip/visa224/image_adapter_20.pth
+
+  # cuda, cuda:N, or cpu.
+  device: cuda:0
+
+  # Must equal the resolution the adapters were trained at: positional embeddings and
+  # early adapters are resolution-dependent.
+  image_size: 224
+
+  # Upstream train.py/test.py defaults, as used for the paper.
+  model_name: ViT-L-14-336
+  relu: false
+  text_adapt_weight: 0.1
+  image_adapt_weight: 0.1
+  text_adapt_until: 3
+  image_adapt_until: 6

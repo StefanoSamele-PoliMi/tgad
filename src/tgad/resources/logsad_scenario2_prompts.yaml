@@ -1,0 +1,95 @@
+metadata:
+  scenario: 2
+  dataset: MVTec AD per-part extension
+  resolution: 224
+  model: LogSAD
+  paper_appendix: D.2
+  # Foreground keywords name the instructed component(s); background keywords name the
+  # remaining components and "background". Only the foreground-masking extension
+  # (--model logsad_fms) uses them.
+  prompts_per_subclass: 1
+pools:
+  cable1:
+  - {foreground: [light blue outer insulation], background: [green inner cable, blue inner cable, gray inner cable, background]}
+  cable2:
+  - {foreground: [green inner cable], background: [light blue outer insulation, blue inner cable, gray inner cable, background]}
+  cable3:
+  - {foreground: [blue inner cable], background: [light blue outer insulation, green inner cable, gray inner cable, background]}
+  cable4:
+  - {foreground: [gray inner cable], background: [light blue outer insulation, green inner cable, blue inner cable, background]}
+  cable1_cable2:
+  - {foreground: [light blue outer insulation, green inner cable], background: [blue inner cable, gray inner cable, background]}
+  cable1_cable3:
+  - {foreground: [light blue outer insulation, blue inner cable], background: [green inner cable, gray inner cable, background]}
+  cable2_cable3:
+  - {foreground: [green inner cable, blue inner cable], background: [light blue outer insulation, gray inner cable, background]}
+  cable2_cable4:
+  - {foreground: [green inner cable, gray inner cable], background: [light blue outer insulation, blue inner cable, background]}
+  cable3_cable4:
+  - {foreground: [blue inner cable, gray inner cable], background: [light blue outer insulation, green inner cable, background]}
+  cable2_cable3_cable4:
+  - {foreground: [green inner cable, blue inner cable, gray inner cable], background: [light blue outer insulation, background]}
+  capsule1:
+  - {foreground: [white printed number 500], background: [black gelatin capsule, orange gelatin capsule, background]}
+  capsule2:
+  - {foreground: [black gelatin capsule], background: [white printed number 500, orange gelatin capsule, background]}
+  capsule3:
+  - {foreground: [orange gelatin capsule], background: [white printed number 500, black gelatin capsule, background]}
+  capsule1_capsule3:
+  - {foreground: [white printed number 500, orange gelatin capsule], background: [black gelatin capsule, background]}
+  capsule2_capsule3:
+  - {foreground: [black gelatin capsule, orange gelatin capsule], background: [white printed number 500, background]}
+  hazelnut1:
+  - {foreground: [hazelnut shell surface], background: [hilum scar on hazelnut, background]}
+  hazelnut2:
+  - {foreground: [hilum scar on hazelnut], background: [hazelnut shell surface, background]}
+  hazelnut1_hazelnut2:
+  - {foreground: [hazelnut shell surface, hilum scar on hazelnut], background: [background]}
+  metal_nut1:
+  - {foreground: [outer hexagonal metal body], background: [central threaded hole, background]}
+  metal_nut2:
+  - {foreground: [central threaded hole], background: [outer hexagonal metal body, background]}
+  metal_nut1_metal_nut2:
+  - {foreground: [outer hexagonal metal body, central threaded hole], background: [background]}
+  pill1:
+  - {foreground: [plain pill surface], background: [embossed letters FF on pill, background]}
+  pill2:
+  - {foreground: [embossed letters FF on pill], background: [plain pill surface, background]}
+  pill1_pill2:
+  - {foreground: [plain pill surface, embossed letters FF on pill], background: [background]}
+  screw1:
+  - {foreground: [threaded screw shaft], background: [screw head top, screw neck, background]}
+  screw2:
+  - {foreground: [screw head top], background: [threaded screw shaft, screw neck, background]}
+  screw3:
+  - {foreground: [screw neck], background: [threaded screw shaft, screw head top, background]}
+  toothbrush1:
+  - {foreground: [plastic toothbrush handle], background: [white toothbrush bristles, colored toothbrush bristles, background]}
+  toothbrush2:
+  - {foreground: [white toothbrush bristles], background: [plastic toothbrush handle, colored toothbrush bristles, background]}
+  toothbrush3:
+  - {foreground: [colored toothbrush bristles], background: [plastic toothbrush handle, white toothbrush bristles, background]}
+  toothbrush1_toothbrush2:
+  - {foreground: [plastic toothbrush handle, white toothbrush bristles], background: [colored toothbrush bristles, background]}
+  toothbrush2_toothbrush3:
+  - {foreground: [white toothbrush bristles, colored toothbrush bristles], background: [plastic toothbrush handle, background]}
+  toothbrush1_toothbrush2_toothbrush3:
+  - {foreground: [plastic toothbrush handle, white toothbrush bristles, colored toothbrush bristles], background: [background]}
+  transistor1:
+  - {foreground: [black plastic transistor body], background: [metal transistor legs, background]}
+  transistor2:
+  - {foreground: [metal transistor legs], background: [black plastic transistor body, background]}
+  transistor1_transistor2:
+  - {foreground: [black plastic transistor body, metal transistor legs], background: [background]}
+  zipper1:
+  - {foreground: [interior zipper fabric], background: [metal zipper teeth, fabric at zipper edge, background]}
+  zipper2:
+  - {foreground: [metal zipper teeth], background: [interior zipper fabric, fabric at zipper edge, background]}
+  zipper3:
+  - {foreground: [fabric at zipper edge], background: [interior zipper fabric, metal zipper teeth, background]}
+  zipper1_zipper2:
+  - {foreground: [interior zipper fabric, metal zipper teeth], background: [fabric at zipper edge, background]}
+  zipper1_zipper3:
+  - {foreground: [interior zipper fabric, fabric at zipper edge], background: [metal zipper teeth, background]}
+  zipper2_zipper3:
+  - {foreground: [metal zipper teeth, fabric at zipper edge], background: [interior zipper fabric, background]}

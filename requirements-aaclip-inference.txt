@@ -1,0 +1,5 @@
+# AA-CLIP runs in the AnomalyGPT inference environment (Python 3.10, torch 1.13.1+cu117).
+# The pinned upstream AA-CLIP code also imports kornia, opencv-python, ftfy, regex, timm,
+# scikit-learn, scipy, and ipdb, all already pinned by requirements-anomalygpt-inference.txt;
+# only pandas is added here.
+pandas==2.0.3

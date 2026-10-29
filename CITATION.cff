@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+message: "If you use this code or the TGAD benchmark, please cite the paper below and the model (AnomalyGPT, AA-CLIP, or LogSAD) whose pipeline you use."
+title: "TGAD: A Structured Benchmark for Text-Guided Anomaly Detection"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/StefanoSamele-PoliMi/tgad"
+authors:
+  - family-names: Samele
+    given-names: Stefano
+  - family-names: Lomurno
+    given-names: Eugenio
+  - family-names: Jovanovic
+    given-names: Teodora
+  - family-names: Shivakumar Manohar
+    given-names: Sanjay
+  - family-names: Crivellaro
+    given-names: Alberto
+  - family-names: Matteucci
+    given-names: Matteo
+preferred-citation:
+  type: conference-paper
+  title: "A Structured Benchmark for Text-Guided Anomaly Detection: When Language Stops Conditioning the Decision"
+  authors:
+    - family-names: Samele
+      given-names: Stefano
+    - family-names: Lomurno
+      given-names: Eugenio
+    - family-names: Jovanovic
+      given-names: Teodora
+    - family-names: Shivakumar Manohar
+      given-names: Sanjay
+    - family-names: Crivellaro
+      given-names: Alberto
+    - family-names: Matteucci
+      given-names: Matteo
+  collection-title: "British Machine Vision Conference (BMVC)"
+  year: 2026
+references:
+  - type: conference-paper
+    title: "AnomalyGPT: Detecting Industrial Anomalies using Large Vision-Language Models"
+    authors:
+      - {family-names: Gu, given-names: Zhaopeng}
+      - {family-names: Zhu, given-names: Bingke}
+      - {family-names: Zhu, given-names: Guibo}
+      - {family-names: Chen, given-names: Yingying}
+      - {family-names: Tang, given-names: Ming}
+      - {family-names: Wang, given-names: Jinqiao}
+    collection-title: "AAAI Conference on Artificial Intelligence"
+    year: 2024
+    repository-code: "https://github.com/CASIA-LMC-Lab/AnomalyGPT"
+  - type: conference-paper
+    title: "AA-CLIP: Enhancing Zero-shot Anomaly Detection via Anomaly-Aware CLIP"
+    authors:
+      - {family-names: Ma, given-names: Wenxin}
+      - {family-names: Zhang, given-names: Xu}
+      - {family-names: Yao, given-names: Qingsong}
+      - {family-names: Tang, given-names: Fenghe}
+      - {family-names: Wu, given-names: Chenxu}
+      - {family-names: Li, given-names: Yingtai}
+      - {family-names: Yan, given-names: Rui}
+      - {family-names: Jiang, given-names: Zihang}
+      - {family-names: Zhou, given-names: S. Kevin}
+    collection-title: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    year: 2025
+    repository-code: "https://github.com/Mwxinnn/AA-CLIP"
+  - type: conference-paper
+    title: "Towards Training-free Anomaly Detection with Vision and Language Foundation Models"
+    authors:
+      - {family-names: Zhang, given-names: Jinjin}
+      - {family-names: Wang, given-names: Guodong}
+      - {family-names: Jin, given-names: Yizhou}
+      - {family-names: Huang, given-names: Di}
+    collection-title: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    year: 2025
+    repository-code: "https://github.com/zhang0jhon/LogSAD"

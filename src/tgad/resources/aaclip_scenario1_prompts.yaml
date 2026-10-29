@@ -1,0 +1,81 @@
+metadata:
+  scenario: 1
+  dataset: MVTec AD
+  resolution: 224
+  model: AA-CLIP
+  paper_appendix: C.3, Table 13
+  # Each keyword is inserted verbatim into the Appendix C.3 AA-CLIP normal/abnormal state
+  # templates. Variant names follow Table 1; Table 13 calls them Simple (class_name),
+  # Very Detailed (detailed), and Minimal (generic). Table 13 prints the Metal Nut
+  # class-name keyword as "metal_nut"; the runs behind Table 1 used "metal nut".
+  zero_shot_variants:
+  - class_name
+  - detailed
+  - generic
+  # AA-CLIP is evaluated zero-shot only (Section 3.2).
+  one_shot_variants: []
+class_order:
+- bottle
+- cable
+- capsule
+- carpet
+- grid
+- hazelnut
+- leather
+- metal_nut
+- pill
+- screw
+- tile
+- toothbrush
+- transistor
+- wood
+- zipper
+variants:
+  class_name:
+    bottle: bottle
+    cable: cable
+    capsule: capsule
+    carpet: carpet
+    grid: grid
+    hazelnut: hazelnut
+    leather: leather
+    metal_nut: metal nut
+    pill: pill
+    screw: screw
+    tile: tile
+    toothbrush: toothbrush
+    transistor: transistor
+    wood: wood
+    zipper: zipper
+  detailed:
+    bottle: dark bottle
+    cable: top view of three cables
+    capsule: black and orange capsule
+    carpet: gray carpet
+    grid: metal or plastic mesh
+    hazelnut: single brown hazelnut
+    leather: brown leather
+    metal_nut: metal nut which has four notched edges
+    pill: oval white pill with small red speckles and the letters 'FF' engraved
+    screw: screw
+    tile: speckled tile surface
+    toothbrush: toothbrush head
+    transistor: a three-legged transistor placed vertically
+    wood: wood surface
+    zipper: a black zipper
+  generic:
+    bottle: object
+    cable: object
+    capsule: object
+    carpet: object
+    grid: object
+    hazelnut: object
+    leather: object
+    metal_nut: object
+    pill: object
+    screw: object
+    tile: object
+    toothbrush: object
+    transistor: object
+    wood: object
+    zipper: object

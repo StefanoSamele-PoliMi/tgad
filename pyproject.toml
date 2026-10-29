@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tgad"
+version = "1.0.0"
+description = "Official code for the TGAD text-guided anomaly detection benchmark (AnomalyGPT, AA-CLIP, and LogSAD pipelines)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Stefano Samele"},
+  {name = "Eugenio Lomurno"},
+  {name = "Teodora Jovanovic"},
+  {name = "Sanjay Shivakumar Manohar"},
+  {name = "Alberto Crivellaro"},
+  {name = "Matteo Matteucci"},
+]
+dependencies = [
+  "numpy>=1.23",
+  "Pillow>=9.4",
+  "PyYAML>=6.0",
+  "scipy>=1.9",
+  "scikit-learn>=1.1",
+  "torch>=1.13",
+  "tqdm>=4.64",
+]
+
+[project.urls]
+Repository = "https://github.com/StefanoSamele-PoliMi/tgad"
+Dataset = "https://huggingface.co/datasets/StefanoSamele-PoliMi/assembled-panel-dataset"
+
+[project.scripts]
+tgad = "tgad.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tgad = ["resources/*.yaml", "resources/*.csv", "resources/*.json", "resources/*.txt"]
+

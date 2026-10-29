@@ -1,0 +1,10 @@
+name: tgad
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - git
+  - pip:
+      - -r requirements-anomalygpt-inference.txt
+      - -r requirements-aaclip-inference.txt

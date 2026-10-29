@@ -1,0 +1,160 @@
+metadata:
+  scenario: 1
+  dataset: MVTec AD
+  resolution: 224
+  paper_appendix: C.1
+  zero_shot_variants:
+  - original_description
+  - new_description
+  - no_anomaly_description
+  - no_normality_description
+  - minimal
+  one_shot_variants:
+  - original_description
+  - minimal
+class_order:
+- bottle
+- cable
+- capsule
+- carpet
+- grid
+- hazelnut
+- leather
+- metal_nut
+- pill
+- screw
+- tile
+- toothbrush
+- transistor
+- wood
+- zipper
+variants:
+  minimal:
+    bottle: Is there any anomaly in the image?
+    cable: Is there any anomaly in the image?
+    capsule: Is there any anomaly in the image?
+    carpet: Is there any anomaly in the image?
+    grid: Is there any anomaly in the image?
+    hazelnut: Is there any anomaly in the image?
+    leather: Is there any anomaly in the image?
+    metal_nut: Is there any anomaly in the image?
+    pill: Is there any anomaly in the image?
+    screw: Is there any anomaly in the image?
+    tile: Is there any anomaly in the image?
+    toothbrush: Is there any anomaly in the image?
+    transistor: Is there any anomaly in the image?
+    wood: Is there any anomaly in the image?
+    zipper: Is there any anomaly in the image?
+  original_description:
+    bottle: This is a photo of a bottle for anomaly detection, which should be round, without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+    cable: This is a photo of three cables for anomaly detection, cables cannot be missed or swapped, which should be without
+      any damage, flaw, defect, scratch, hole or broken part. Is there any anomaly in the image?
+    capsule: This is a photo of a capsule for anomaly detection, which should be black and orange, with print '500', without
+      any damage, flaw, defect, scratch, hole or broken part. Is there any anomaly in the image?
+    carpet: This is a photo of carpet for anomaly detection, which should be without any damage, flaw, defect, scratch, hole
+      or broken part. Is there any anomaly in the image?
+    grid: This is a photo of grid for anomaly detection, which should be without any damage, flaw, defect, scratch, hole or
+      broken part. Is there any anomaly in the image?
+    hazelnut: This is a photo of a hazelnut for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+    leather: This is a photo of leather for anomaly detection, which should be brown and without any damage, flaw, defect,
+      scratch, hole or broken part. Is there any anomaly in the image?
+    metal_nut: This is a photo of a metal nut for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part, and shouldn't be flipped. Is there any anomaly in the image?
+    pill: This is a photo of a pill for anomaly detection, which should be white, with print 'FF' and red patterns, without
+      any damage, flaw, defect, scratch, hole or broken part. Is there any anomaly in the image?
+    screw: This is a photo of a screw for anomaly detection, which tail should be sharp, and without any damage, flaw, defect,
+      scratch, hole or broken part. Is there any anomaly in the image?
+    tile: This is a photo of tile for anomaly detection, which should be without any damage, flaw, defect, scratch, hole or
+      broken part. Is there any anomaly in the image?
+    toothbrush: This is a photo of a toothbrush for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+    transistor: This is a photo of a transistor for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+    wood: This is a photo of wood for anomaly detection, which should be brown with patterns, without any damage, flaw, defect,
+      scratch, hole or broken part. Is there any anomaly in the image?
+    zipper: This is a photo of a zipper for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+  new_description:
+    bottle: A close-up view of a single bottle designed for quality control. The object should exhibit a smooth, uninterrupted
+      round form with no visual indicators of wear, damage, or manufacturing errors. Is there any anomaly in the image?
+    cable: Three distinct cables appear in this scene, each expected to lie in proper order. The inspection focuses on ensuring
+      that none are missing, misplaced, or show visible surface damage like cuts or abrasions. Is there any anomaly in the
+      image?
+    capsule: Captured here is a pharmaceutical capsule featuring black and orange segments with the marking '500'. Any inconsistency
+      in color, missing print, or physical deformity would indicate a defect. Is there any anomaly in the image?
+    carpet: An area of carpet is shown, where attention should be given to texture uniformity and surface integrity. Defects
+      like punctures, fiber disruptions, or irregular patterns are not acceptable. Is there any anomaly in the image?
+    grid: This image highlights a metallic grid structure. Gaps, broken lines, or any visible structural inconsistencies would
+      classify as anomalies during inspection. Is there any anomaly in the image?
+    hazelnut: A single hazelnut rests at the center of this frame. Inspectors should check for a clean, unbroken shell with
+      no cracks, holes, or discoloration that might signal a flaw. Is there any anomaly in the image?
+    leather: A stretched piece of brown leather is displayed. Consistent surface texture and color are required; scratches,
+      tears, or stains would signal an anomaly. Is there any anomaly in the image?
+    metal_nut: The photograph shows a metal fastening nut. It should be oriented correctly, with its entire surface free from
+      dents, scratches, missing edges, or other deformities. Is there any anomaly in the image?
+    pill: This frame contains a single pill marked with 'FF' and decorated with red designs on a white background. Any smudging,
+      shape distortion, or surface damage is considered a defect. Is there any anomaly in the image?
+    screw: The focus here is on a single metal screw. Its pointed end must remain sharp, and no part of its surface should
+      exhibit bends, scratches, or manufacturing errors. Is there any anomaly in the image?
+    tile: A square tile is positioned at the center of this image. Inspectors are to look for surface consistency, with no
+      chips, holes, or fractures present. Is there any anomaly in the image?
+    toothbrush: Presented here is a toothbrush. Any broken bristles, cracks in the handle, missing parts, or visible marks
+      would categorize it as defective. Is there any anomaly in the image?
+    transistor: A small electronic transistor sits against a plain background. The pins must remain straight and intact, with
+      no evidence of bending, scratches, or material loss. Is there any anomaly in the image?
+    wood: This is a wooden surface sample. Natural grain patterns should appear uninterrupted, and no cuts, holes, color patches,
+      or texture defects should exist. Is there any anomaly in the image?
+    zipper: The subject here is a clothing zipper. Teeth alignment must be perfect, and no separations, broken segments, or
+      material damage should appear along its length. Is there any anomaly in the image?
+  no_anomaly_description:
+    bottle: This is a photo of a bottle for anomaly detection, which should be round. Is there any anomaly in the image?
+    cable: This is a photo of three cables for anomaly detection. Is there any anomaly in the image?
+    capsule: This is a photo of a capsule for anomaly detection, which should be black and orange, with print '500'. Is there
+      any anomaly in the image?
+    carpet: This is a photo of carpet for anomaly detection. Is there any anomaly in the image?
+    grid: This is a photo of grid for anomaly detection. Is there any anomaly in the image?
+    hazelnut: This is a photo of a hazelnut for anomaly detection. Is there any anomaly in the image?
+    leather: This is a photo of leather for anomaly detection, which should be brown. Is there any anomaly in the image?
+    metal_nut: This is a photo of a metal nut for anomaly detection. Is there any anomaly in the image?
+    pill: This is a photo of a pill for anomaly detection, which should be white, with print 'FF' and red patterns. Is there
+      any anomaly in the image?
+    screw: This is a photo of a screw for anomaly detection, which tail should be sharp. Is there any anomaly in the image?
+    tile: This is a photo of tile for anomaly detection. Is there any anomaly in the image?
+    toothbrush: This is a photo of a toothbrush for anomaly detection. Is there any anomaly in the image?
+    transistor: This is a photo of a transistor for anomaly detection. Is there any anomaly in the image?
+    wood: This is a photo of wood for anomaly detection, which should be brown with patterns. Is there any anomaly in the
+      image?
+    zipper: This is a photo of a zipper for anomaly detection. Is there any anomaly in the image?
+  no_normality_description:
+    bottle: This is a photo of a bottle for anomaly detection, without any damage, flaw, defect, scratch, hole or broken part.
+      Is there any anomaly in the image?
+    cable: This is a photo of three cables for anomaly detection, cables cannot be missed or swapped, which should be without
+      any damage, flaw, defect, scratch, hole or broken part. Is there any anomaly in the image?
+    capsule: This is a photo of a capsule for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+    carpet: This is a photo of carpet for anomaly detection, which should be without any damage, flaw, defect, scratch, hole
+      or broken part. Is there any anomaly in the image?
+    grid: This is a photo of grid for anomaly detection, which should be without any damage, flaw, defect, scratch, hole or
+      broken part. Is there any anomaly in the image?
+    hazelnut: This is a photo of a hazelnut for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+    leather: This is a photo of leather for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+    metal_nut: This is a photo of a metal nut for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part, and shouldn't be flipped. Is there any anomaly in the image?
+    pill: This is a photo of a pill for anomaly detection, which should be without any damage, flaw, defect, scratch, hole
+      or broken part. Is there any anomaly in the image?
+    screw: This is a photo of a screw for anomaly detection, which should be without any damage, flaw, defect, scratch, hole
+      or broken part. Is there any anomaly in the image?
+    tile: This is a photo of tile for anomaly detection, which should be without any damage, flaw, defect, scratch, hole or
+      broken part. Is there any anomaly in the image?
+    toothbrush: This is a photo of a toothbrush for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+    transistor: This is a photo of a transistor for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?
+    wood: This is a photo of wood for anomaly detection, which should be without any damage, flaw, defect, scratch, hole or
+      broken part. Is there any anomaly in the image?
+    zipper: This is a photo of a zipper for anomaly detection, which should be without any damage, flaw, defect, scratch,
+      hole or broken part. Is there any anomaly in the image?

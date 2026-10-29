@@ -1,0 +1,87 @@
+metadata:
+  scenario: 3
+  dataset: Assembled Panel Dataset
+  resolution: 224
+  model: LogSAD
+  paper_appendix: E.2
+  # LogSAD is evaluated 1-shot and full-shot with the three Standard AD foreground
+  # keywords under both spatial strategies (Appendix Tables 10 and 11), each against the two
+  # Appendix E.2 background keywords. Released LogSAD (--model logsad) does not use the
+  # keywords; with --model logsad_fms both background keywords are contrast prompts (Eq. 2).
+  standard_variants:
+    direct_resize:
+      1: [minimal, simple, very_detailed]
+      full: [minimal, simple, very_detailed]
+    pad_to_square:
+      1: [minimal, simple, very_detailed]
+      full: [minimal, simple, very_detailed]
+  preprocessing:
+  - direct_resize
+  - pad_to_square
+standard:
+  minimal: {foreground: [electrical control panel], background: [background, industrial environment]}
+  simple: {foreground: [industrial PCB assembly], background: [background, industrial environment]}
+  very_detailed:
+    foreground: ["industrial electrical control panel with green PCBs, white relays, orange terminals, and multicolored cables"]
+    background: [background, industrial environment]
+# One foreground and one background keyword per category, keyed by the defect they
+# describe (A_k = err_k, see the Assembled Panel categories table in the README).
+# Only --model logsad_fms uses them.
+per_error:
+  A1:
+    foreground: ["left and right power ports; focus on cable colors and positions"]
+    background: ["general PCB surface and other components"]
+  A2:
+    foreground: ["left and right EV ports; focus on green, blue, and brown cables"]
+    background: ["general PCB surface and non-EV-port areas"]
+  A3:
+    foreground: ["left and right EV ports; focus on orange and white cables"]
+    background: ["general PCB surface and surrounding areas"]
+  A4:
+    foreground: ["left and right IO power cables; focus on upper and lower positions on the terminal blocks"]
+    background: ["surrounding PCB areas"]
+  A5:
+    foreground: ["black-box areas on left and right PCB; focus on correct label placement on top"]
+    background: ["general PCB surface and panel"]
+  A6:
+    foreground: ["top of left and right PCB; focus on missing number labels"]
+    background: ["general PCB surface"]
+  A7:
+    foreground: ["panel-mounting screws on the metal panel; focus on rubber rings"]
+    background: ["other screws and unrelated PCB areas"]
+  A8:
+    foreground: ["area near the EV port; focus on the red protective cap"]
+    background: ["general PCB and non-EV-port areas"]
+  A9:
+    foreground: ["top and bottom power ports; focus on missing power wires"]
+    background: ["general PCB area outside these ports"]
+  A10:
+    foreground: ["left and right EV ports; focus on missing EV-port wires"]
+    background: ["other PCB areas and ports"]
+  A11:
+    foreground: ["panel and PCB screws; focus on missing fasteners"]
+    background: ["panel borders and non-screw regions"]
+  A12:
+    foreground: ["right current sensor with the brown and blue power cables; focus on routing through the sensor"]
+    background: ["PCB areas unrelated to the sensor"]
+  A13:
+    foreground: ["damaged PCB regions; focus on scratches, cracks, or missing components"]
+    background: ["undamaged PCB and panel areas"]
+  A14:
+    foreground: ["right current sensor; focus on disconnected or unplugged wires"]
+    background: ["PCB areas unrelated to the sensor"]
+coco_error_to_paper_id:
+  err_1: A1
+  err_2: A2
+  err_3: A3
+  err_4: A4
+  err_5: A5
+  err_6: A6
+  err_7: A7
+  err_8: A8
+  err_9: A9
+  err_10: A10
+  err_11: A11
+  err_12: A12
+  err_13: A13
+  err_14: A14

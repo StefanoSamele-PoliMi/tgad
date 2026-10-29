@@ -1,0 +1,2730 @@
+{
+  "classes": {
+    "cable": {
+      "bent_wire": {
+        "000.png": [
+          "cable3"
+        ],
+        "001.png": [
+          "cable3"
+        ],
+        "002.png": [
+          "cable2"
+        ],
+        "003.png": [
+          "cable4"
+        ],
+        "004.png": [
+          "cable4"
+        ],
+        "005.png": [
+          "cable2"
+        ],
+        "006.png": [
+          "cable3"
+        ],
+        "007.png": [
+          "cable2"
+        ],
+        "008.png": [
+          "cable2"
+        ],
+        "009.png": [
+          "cable3"
+        ],
+        "010.png": [
+          "cable4"
+        ],
+        "011.png": [
+          "cable2",
+          "cable3"
+        ],
+        "012.png": [
+          "cable2",
+          "cable4"
+        ]
+      },
+      "cut_inner_insulation": {
+        "000.png": [
+          "cable4"
+        ],
+        "001.png": [
+          "cable3"
+        ],
+        "002.png": [
+          "cable4"
+        ],
+        "003.png": [
+          "cable2",
+          "cable4"
+        ],
+        "004.png": [
+          "cable4"
+        ],
+        "005.png": [
+          "cable2"
+        ],
+        "006.png": [
+          "cable3"
+        ],
+        "007.png": [
+          "cable2",
+          "cable4"
+        ],
+        "008.png": [
+          "cable4"
+        ],
+        "009.png": [
+          "cable2",
+          "cable4"
+        ],
+        "010.png": [
+          "cable2"
+        ],
+        "011.png": [
+          "cable3"
+        ],
+        "012.png": [
+          "cable2",
+          "cable3",
+          "cable4"
+        ],
+        "013.png": [
+          "cable2"
+        ]
+      },
+      "missing_cable": {
+        "000.png": [
+          "cable2"
+        ],
+        "001.png": [
+          "cable3"
+        ],
+        "002.png": [
+          "cable3"
+        ],
+        "003.png": [
+          "cable3"
+        ],
+        "004.png": [
+          "cable4"
+        ],
+        "005.png": [
+          "cable4"
+        ],
+        "006.png": [
+          "cable2",
+          "cable3",
+          "cable4"
+        ],
+        "007.png": [
+          "cable2",
+          "cable4"
+        ],
+        "008.png": [
+          "cable3",
+          "cable4"
+        ],
+        "009.png": [
+          "cable2",
+          "cable3"
+        ],
+        "010.png": [
+          "cable2"
+        ],
+        "011.png": [
+          "cable2"
+        ]
+      },
+      "cable_swap": {
+        "000.png": [
+          "cable4"
+        ],
+        "001.png": [
+          "cable2"
+        ],
+        "002.png": [
+          "cable3"
+        ],
+        "003.png": [
+          "cable4"
+        ],
+        "004.png": [
+          "cable2"
+        ],
+        "005.png": [
+          "cable3"
+        ],
+        "006.png": [
+          "cable4"
+        ],
+        "007.png": [
+          "cable3"
+        ],
+        "008.png": [
+          "cable2"
+        ],
+        "009.png": [
+          "cable4"
+        ],
+        "010.png": [
+          "cable3"
+        ],
+        "011.png": [
+          "cable2"
+        ]
+      },
+      "cut_outer_insulation": {
+        "000.png": [
+          "cable1"
+        ],
+        "001.png": [
+          "cable1"
+        ],
+        "002.png": [
+          "cable1"
+        ],
+        "003.png": [
+          "cable1"
+        ],
+        "004.png": [
+          "cable1"
+        ],
+        "005.png": [
+          "cable1"
+        ],
+        "006.png": [
+          "cable1"
+        ],
+        "007.png": [
+          "cable1"
+        ],
+        "008.png": [
+          "cable1"
+        ],
+        "009.png": [
+          "cable1"
+        ]
+      },
+      "missing_wire": {
+        "000.png": [
+          "cable3"
+        ],
+        "001.png": [
+          "cable2"
+        ],
+        "002.png": [
+          "cable3"
+        ],
+        "003.png": [
+          "cable2",
+          "cable4"
+        ],
+        "004.png": [
+          "cable3",
+          "cable4"
+        ],
+        "005.png": [
+          "cable4"
+        ],
+        "006.png": [
+          "cable2"
+        ],
+        "007.png": [
+          "cable3"
+        ],
+        "008.png": [
+          "cable4"
+        ],
+        "009.png": [
+          "cable2"
+        ]
+      },
+      "combined": {
+        "000.png": [
+          "cable1",
+          "cable2"
+        ],
+        "001.png": [
+          "cable1",
+          "cable3"
+        ],
+        "002.png": [
+          "cable1"
+        ],
+        "003.png": [
+          "cable1",
+          "cable2"
+        ],
+        "004.png": [
+          "cable1",
+          "cable3"
+        ],
+        "005.png": [
+          "cable2",
+          "cable4"
+        ],
+        "006.png": [
+          "cable2",
+          "cable3"
+        ],
+        "007.png": [
+          "cable2",
+          "cable3"
+        ],
+        "008.png": [
+          "cable2",
+          "cable4"
+        ],
+        "009.png": [
+          "cable2",
+          "cable4"
+        ],
+        "010.png": [
+          "cable1",
+          "cable3"
+        ]
+      },
+      "poke_insulation": {
+        "000.png": [
+          "cable1"
+        ],
+        "001.png": [
+          "cable1"
+        ],
+        "002.png": [
+          "cable1"
+        ],
+        "003.png": [
+          "cable1"
+        ],
+        "004.png": [
+          "cable1"
+        ],
+        "005.png": [
+          "cable1"
+        ],
+        "006.png": [
+          "cable1"
+        ],
+        "007.png": [
+          "cable1"
+        ],
+        "008.png": [
+          "cable1"
+        ],
+        "009.png": [
+          "cable1"
+        ]
+      }
+    },
+    "capsule": {
+      "crack": {
+        "000.png": [
+          "capsule3"
+        ],
+        "001.png": [
+          "capsule2"
+        ],
+        "002.png": [
+          "capsule2"
+        ],
+        "003.png": [
+          "capsule3"
+        ],
+        "004.png": [
+          "capsule3"
+        ],
+        "005.png": [
+          "capsule2"
+        ],
+        "006.png": [
+          "capsule3"
+        ],
+        "007.png": [
+          "capsule3"
+        ],
+        "008.png": [
+          "capsule1"
+        ],
+        "009.png": [
+          "capsule2",
+          "capsule3"
+        ],
+        "010.png": [
+          "capsule2"
+        ],
+        "011.png": [
+          "capsule2"
+        ],
+        "012.png": [
+          "capsule2",
+          "capsule3"
+        ],
+        "013.png": [
+          "capsule2"
+        ],
+        "014.png": [
+          "capsule2"
+        ],
+        "015.png": [
+          "capsule2"
+        ],
+        "016.png": [
+          "capsule3"
+        ],
+        "017.png": [
+          "capsule3"
+        ],
+        "018.png": [
+          "capsule3"
+        ],
+        "019.png": [
+          "capsule3"
+        ],
+        "020.png": [
+          "capsule2"
+        ],
+        "021.png": [
+          "capsule2"
+        ],
+        "022.png": [
+          "capsule3"
+        ]
+      },
+      "faulty_imprint": {
+        "000.png": [
+          "capsule1"
+        ],
+        "001.png": [
+          "capsule1"
+        ],
+        "002.png": [
+          "capsule1"
+        ],
+        "003.png": [
+          "capsule1"
+        ],
+        "004.png": [
+          "capsule1"
+        ],
+        "005.png": [
+          "capsule1"
+        ],
+        "006.png": [
+          "capsule1"
+        ],
+        "007.png": [
+          "capsule1"
+        ],
+        "008.png": [
+          "capsule1"
+        ],
+        "009.png": [
+          "capsule1"
+        ],
+        "010.png": [
+          "capsule1"
+        ],
+        "011.png": [
+          "capsule1"
+        ],
+        "012.png": [
+          "capsule1"
+        ],
+        "013.png": [
+          "capsule1"
+        ],
+        "014.png": [
+          "capsule1"
+        ],
+        "015.png": [
+          "capsule1"
+        ],
+        "016.png": [
+          "capsule1"
+        ],
+        "017.png": [
+          "capsule1"
+        ],
+        "018.png": [
+          "capsule1"
+        ],
+        "019.png": [
+          "capsule1"
+        ],
+        "020.png": [
+          "capsule1"
+        ],
+        "021.png": [
+          "capsule1"
+        ]
+      },
+      "poke": {
+        "000.png": [
+          "capsule1"
+        ],
+        "001.png": [
+          "capsule2"
+        ],
+        "002.png": [
+          "capsule3"
+        ],
+        "003.png": [
+          "capsule3"
+        ],
+        "004.png": [
+          "capsule1"
+        ],
+        "005.png": [
+          "capsule2"
+        ],
+        "006.png": [
+          "capsule2"
+        ],
+        "007.png": [
+          "capsule3"
+        ],
+        "008.png": [
+          "capsule2",
+          "capsule3"
+        ],
+        "009.png": [
+          "capsule2"
+        ],
+        "010.png": [
+          "capsule1"
+        ],
+        "011.png": [
+          "capsule3"
+        ],
+        "012.png": [
+          "capsule1"
+        ],
+        "013.png": [
+          "capsule2"
+        ],
+        "014.png": [
+          "capsule3"
+        ],
+        "015.png": [
+          "capsule1"
+        ],
+        "016.png": [
+          "capsule2"
+        ],
+        "017.png": [
+          "capsule3"
+        ],
+        "018.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "019.png": [
+          "capsule1"
+        ],
+        "020.png": [
+          "capsule1"
+        ]
+      },
+      "scratch": {
+        "000.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "001.png": [
+          "capsule3"
+        ],
+        "002.png": [
+          "capsule1"
+        ],
+        "003.png": [
+          "capsule3"
+        ],
+        "004.png": [
+          "capsule3"
+        ],
+        "005.png": [
+          "capsule3"
+        ],
+        "006.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "007.png": [
+          "capsule3"
+        ],
+        "008.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "009.png": [
+          "capsule3"
+        ],
+        "010.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "011.png": [
+          "capsule3"
+        ],
+        "012.png": [
+          "capsule3"
+        ],
+        "013.png": [
+          "capsule3"
+        ],
+        "014.png": [
+          "capsule2",
+          "capsule3"
+        ],
+        "015.png": [
+          "capsule3"
+        ],
+        "016.png": [
+          "capsule3"
+        ],
+        "017.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "018.png": [
+          "capsule3"
+        ],
+        "019.png": [
+          "capsule3"
+        ],
+        "020.png": [
+          "capsule3"
+        ],
+        "021.png": [
+          "capsule3"
+        ],
+        "022.png": [
+          "capsule1",
+          "capsule3"
+        ]
+      },
+      "squeeze": {
+        "000.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "001.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "002.png": [
+          "capsule2"
+        ],
+        "003.png": [
+          "capsule3"
+        ],
+        "004.png": [
+          "capsule2"
+        ],
+        "005.png": [
+          "capsule3"
+        ],
+        "006.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "007.png": [
+          "capsule2"
+        ],
+        "008.png": [
+          "capsule3"
+        ],
+        "009.png": [
+          "capsule2"
+        ],
+        "010.png": [
+          "capsule3"
+        ],
+        "011.png": [
+          "capsule2"
+        ],
+        "012.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "013.png": [
+          "capsule3"
+        ],
+        "014.png": [
+          "capsule2",
+          "capsule3"
+        ],
+        "015.png": [
+          "capsule2"
+        ],
+        "016.png": [
+          "capsule1",
+          "capsule3"
+        ],
+        "017.png": [
+          "capsule2"
+        ],
+        "018.png": [
+          "capsule3"
+        ],
+        "019.png": [
+          "capsule3"
+        ]
+      }
+    },
+    "hazelnut": {
+      "crack": {
+        "000.png": [
+          "hazelnut1"
+        ],
+        "001.png": [
+          "hazelnut1"
+        ],
+        "002.png": [
+          "hazelnut1"
+        ],
+        "003.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ],
+        "004.png": [
+          "hazelnut1"
+        ],
+        "005.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ],
+        "006.png": [
+          "hazelnut1"
+        ],
+        "007.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ],
+        "008.png": [
+          "hazelnut1"
+        ],
+        "009.png": [
+          "hazelnut1"
+        ],
+        "010.png": [
+          "hazelnut1"
+        ],
+        "011.png": [
+          "hazelnut1"
+        ],
+        "012.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ],
+        "013.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ],
+        "014.png": [
+          "hazelnut1"
+        ],
+        "015.png": [
+          "hazelnut1"
+        ],
+        "016.png": [
+          "hazelnut1"
+        ],
+        "017.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ]
+      },
+      "cut": {
+        "000.png": [
+          "hazelnut1"
+        ],
+        "001.png": [
+          "hazelnut1"
+        ],
+        "002.png": [
+          "hazelnut1"
+        ],
+        "003.png": [
+          "hazelnut1"
+        ],
+        "004.png": [
+          "hazelnut1"
+        ],
+        "005.png": [
+          "hazelnut1"
+        ],
+        "006.png": [
+          "hazelnut1"
+        ],
+        "007.png": [
+          "hazelnut1"
+        ],
+        "008.png": [
+          "hazelnut1"
+        ],
+        "009.png": [
+          "hazelnut1"
+        ],
+        "010.png": [
+          "hazelnut1"
+        ],
+        "011.png": [
+          "hazelnut1"
+        ],
+        "012.png": [
+          "hazelnut1"
+        ],
+        "013.png": [
+          "hazelnut1"
+        ],
+        "014.png": [
+          "hazelnut1"
+        ],
+        "015.png": [
+          "hazelnut1"
+        ],
+        "016.png": [
+          "hazelnut1"
+        ]
+      },
+      "hole": {
+        "000.png": [
+          "hazelnut1"
+        ],
+        "001.png": [
+          "hazelnut1"
+        ],
+        "002.png": [
+          "hazelnut1"
+        ],
+        "003.png": [
+          "hazelnut1"
+        ],
+        "004.png": [
+          "hazelnut1"
+        ],
+        "005.png": [
+          "hazelnut1"
+        ],
+        "006.png": [
+          "hazelnut1"
+        ],
+        "007.png": [
+          "hazelnut1"
+        ],
+        "008.png": [
+          "hazelnut1"
+        ],
+        "009.png": [
+          "hazelnut1"
+        ],
+        "010.png": [
+          "hazelnut1"
+        ],
+        "011.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ],
+        "012.png": [
+          "hazelnut1"
+        ],
+        "013.png": [
+          "hazelnut1"
+        ],
+        "014.png": [
+          "hazelnut1"
+        ],
+        "015.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ],
+        "016.png": [
+          "hazelnut1"
+        ],
+        "017.png": [
+          "hazelnut1"
+        ]
+      },
+      "print": {
+        "000.png": [
+          "hazelnut1"
+        ],
+        "001.png": [
+          "hazelnut1"
+        ],
+        "002.png": [
+          "hazelnut1"
+        ],
+        "003.png": [
+          "hazelnut1"
+        ],
+        "004.png": [
+          "hazelnut1"
+        ],
+        "005.png": [
+          "hazelnut1"
+        ],
+        "006.png": [
+          "hazelnut1"
+        ],
+        "007.png": [
+          "hazelnut1"
+        ],
+        "008.png": [
+          "hazelnut1"
+        ],
+        "009.png": [
+          "hazelnut2"
+        ],
+        "010.png": [
+          "hazelnut1"
+        ],
+        "011.png": [
+          "hazelnut1"
+        ],
+        "012.png": [
+          "hazelnut1"
+        ],
+        "013.png": [
+          "hazelnut1"
+        ],
+        "014.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ],
+        "015.png": [
+          "hazelnut1"
+        ],
+        "016.png": [
+          "hazelnut1",
+          "hazelnut2"
+        ]
+      }
+    },
+    "metal_nut": {
+      "bent": {
+        "000.png": [
+          "metal_nut1"
+        ],
+        "001.png": [
+          "metal_nut1"
+        ],
+        "002.png": [
+          "metal_nut1"
+        ],
+        "003.png": [
+          "metal_nut1"
+        ],
+        "004.png": [
+          "metal_nut1"
+        ],
+        "005.png": [
+          "metal_nut1"
+        ],
+        "006.png": [
+          "metal_nut1"
+        ],
+        "007.png": [
+          "metal_nut1"
+        ],
+        "008.png": [
+          "metal_nut1"
+        ],
+        "009.png": [
+          "metal_nut1"
+        ],
+        "010.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "011.png": [
+          "metal_nut1"
+        ],
+        "012.png": [
+          "metal_nut1"
+        ],
+        "013.png": [
+          "metal_nut1"
+        ],
+        "014.png": [
+          "metal_nut1"
+        ],
+        "015.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "016.png": [
+          "metal_nut1"
+        ],
+        "017.png": [
+          "metal_nut1"
+        ],
+        "018.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "019.png": [
+          "metal_nut1"
+        ],
+        "020.png": [
+          "metal_nut1"
+        ],
+        "021.png": [
+          "metal_nut1"
+        ],
+        "022.png": [
+          "metal_nut1"
+        ],
+        "023.png": [
+          "metal_nut1"
+        ],
+        "024.png": [
+          "metal_nut1"
+        ]
+      },
+      "color": {
+        "000.png": [
+          "metal_nut2"
+        ],
+        "001.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "002.png": [
+          "metal_nut1"
+        ],
+        "003.png": [
+          "metal_nut1"
+        ],
+        "004.png": [
+          "metal_nut2"
+        ],
+        "005.png": [
+          "metal_nut2"
+        ],
+        "006.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "007.png": [
+          "metal_nut2"
+        ],
+        "008.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "009.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "010.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "011.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "012.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "013.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "014.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "015.png": [
+          "metal_nut2"
+        ],
+        "016.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "017.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "018.png": [
+          "metal_nut2"
+        ],
+        "019.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "020.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "021.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ]
+      },
+      "flip": {
+        "000.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "001.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "002.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "003.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "004.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "005.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "006.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "007.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "008.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "009.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "010.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "011.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "012.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "013.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "014.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "015.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "016.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "017.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "018.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "019.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "020.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "021.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "022.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ]
+      },
+      "scratch": {
+        "000.png": [
+          "metal_nut2"
+        ],
+        "001.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "002.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "003.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "004.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "005.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "006.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "007.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "008.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "009.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "010.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "011.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "012.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "013.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "014.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "015.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "016.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "017.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "018.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "019.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "020.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "021.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ],
+        "022.png": [
+          "metal_nut1",
+          "metal_nut2"
+        ]
+      }
+    },
+    "pill": {
+      "color": {
+        "000.png": [
+          "pill1"
+        ],
+        "001.png": [
+          "pill1"
+        ],
+        "002.png": [
+          "pill1"
+        ],
+        "003.png": [
+          "pill1"
+        ],
+        "004.png": [
+          "pill1"
+        ],
+        "005.png": [
+          "pill1"
+        ],
+        "006.png": [
+          "pill1"
+        ],
+        "007.png": [
+          "pill1"
+        ],
+        "008.png": [
+          "pill1"
+        ],
+        "009.png": [
+          "pill1"
+        ],
+        "010.png": [
+          "pill1"
+        ],
+        "011.png": [
+          "pill1"
+        ],
+        "012.png": [
+          "pill1"
+        ],
+        "013.png": [
+          "pill1"
+        ],
+        "014.png": [
+          "pill1"
+        ],
+        "015.png": [
+          "pill1"
+        ],
+        "016.png": [
+          "pill1"
+        ],
+        "017.png": [
+          "pill1"
+        ],
+        "018.png": [
+          "pill1"
+        ],
+        "019.png": [
+          "pill1"
+        ],
+        "020.png": [
+          "pill1"
+        ],
+        "021.png": [
+          "pill1"
+        ],
+        "022.png": [
+          "pill1"
+        ],
+        "023.png": [
+          "pill1"
+        ],
+        "024.png": [
+          "pill1"
+        ]
+      },
+      "contamination": {
+        "000.png": [
+          "pill1"
+        ],
+        "001.png": [
+          "pill1",
+          "pill2"
+        ],
+        "002.png": [
+          "pill1"
+        ],
+        "003.png": [
+          "pill1"
+        ],
+        "004.png": [
+          "pill1"
+        ],
+        "005.png": [
+          "pill1",
+          "pill2"
+        ],
+        "006.png": [
+          "pill1"
+        ],
+        "007.png": [
+          "pill1"
+        ],
+        "008.png": [
+          "pill1"
+        ],
+        "009.png": [
+          "pill2"
+        ],
+        "010.png": [
+          "pill1"
+        ],
+        "011.png": [
+          "pill1"
+        ],
+        "012.png": [
+          "pill1"
+        ],
+        "013.png": [
+          "pill1"
+        ],
+        "014.png": [
+          "pill1"
+        ],
+        "015.png": [
+          "pill1"
+        ],
+        "016.png": [
+          "pill1"
+        ],
+        "017.png": [
+          "pill1"
+        ],
+        "018.png": [
+          "pill2"
+        ],
+        "019.png": [
+          "pill2"
+        ],
+        "020.png": [
+          "pill1"
+        ]
+      },
+      "faulty_imprint": {
+        "000.png": [
+          "pill2"
+        ],
+        "001.png": [
+          "pill2"
+        ],
+        "002.png": [
+          "pill2"
+        ],
+        "003.png": [
+          "pill2"
+        ],
+        "004.png": [
+          "pill2"
+        ],
+        "005.png": [
+          "pill2"
+        ],
+        "006.png": [
+          "pill2"
+        ],
+        "007.png": [
+          "pill2"
+        ],
+        "008.png": [
+          "pill1",
+          "pill2"
+        ],
+        "009.png": [
+          "pill1",
+          "pill2"
+        ],
+        "010.png": [
+          "pill2"
+        ],
+        "011.png": [
+          "pill2"
+        ],
+        "012.png": [
+          "pill1",
+          "pill2"
+        ],
+        "013.png": [
+          "pill2"
+        ],
+        "014.png": [
+          "pill2"
+        ],
+        "015.png": [
+          "pill2"
+        ],
+        "016.png": [
+          "pill1",
+          "pill2"
+        ],
+        "017.png": [
+          "pill2"
+        ],
+        "018.png": [
+          "pill2"
+        ]
+      },
+      "pill_type": {
+        "000.png": [
+          "pill1",
+          "pill2"
+        ],
+        "001.png": [
+          "pill1",
+          "pill2"
+        ],
+        "002.png": [
+          "pill1",
+          "pill2"
+        ],
+        "003.png": [
+          "pill1",
+          "pill2"
+        ],
+        "004.png": [
+          "pill1",
+          "pill2"
+        ],
+        "005.png": [
+          "pill1",
+          "pill2"
+        ],
+        "006.png": [
+          "pill1",
+          "pill2"
+        ],
+        "007.png": [
+          "pill1",
+          "pill2"
+        ],
+        "008.png": [
+          "pill1",
+          "pill2"
+        ]
+      },
+      "combined": {
+        "000.png": [
+          "pill1"
+        ],
+        "001.png": [
+          "pill1",
+          "pill2"
+        ],
+        "002.png": [
+          "pill1"
+        ],
+        "003.png": [
+          "pill1"
+        ],
+        "004.png": [
+          "pill1"
+        ],
+        "005.png": [
+          "pill1"
+        ],
+        "006.png": [
+          "pill2"
+        ],
+        "007.png": [
+          "pill1",
+          "pill2"
+        ],
+        "008.png": [
+          "pill1"
+        ],
+        "009.png": [
+          "pill1"
+        ],
+        "010.png": [
+          "pill1",
+          "pill2"
+        ],
+        "011.png": [
+          "pill1"
+        ],
+        "012.png": [
+          "pill1"
+        ],
+        "013.png": [
+          "pill1"
+        ],
+        "014.png": [
+          "pill1"
+        ],
+        "015.png": [
+          "pill1"
+        ],
+        "016.png": [
+          "pill1"
+        ]
+      },
+      "crack": {
+        "000.png": [
+          "pill1"
+        ],
+        "001.png": [
+          "pill1"
+        ],
+        "002.png": [
+          "pill1"
+        ],
+        "003.png": [
+          "pill1"
+        ],
+        "004.png": [
+          "pill1"
+        ],
+        "005.png": [
+          "pill1"
+        ],
+        "006.png": [
+          "pill1"
+        ],
+        "007.png": [
+          "pill1"
+        ],
+        "008.png": [
+          "pill1"
+        ],
+        "009.png": [
+          "pill1"
+        ],
+        "010.png": [
+          "pill1"
+        ],
+        "011.png": [
+          "pill1"
+        ],
+        "012.png": [
+          "pill1"
+        ],
+        "013.png": [
+          "pill1"
+        ],
+        "014.png": [
+          "pill1"
+        ],
+        "015.png": [
+          "pill1"
+        ],
+        "016.png": [
+          "pill1"
+        ],
+        "017.png": [
+          "pill1"
+        ],
+        "018.png": [
+          "pill1"
+        ],
+        "019.png": [
+          "pill1"
+        ],
+        "020.png": [
+          "pill1"
+        ],
+        "021.png": [
+          "pill1"
+        ],
+        "022.png": [
+          "pill1"
+        ],
+        "023.png": [
+          "pill1"
+        ],
+        "024.png": [
+          "pill1"
+        ],
+        "025.png": [
+          "pill1"
+        ]
+      },
+      "scratch": {
+        "000.png": [
+          "pill1"
+        ],
+        "001.png": [
+          "pill1"
+        ],
+        "002.png": [
+          "pill1"
+        ],
+        "003.png": [
+          "pill1"
+        ],
+        "004.png": [
+          "pill1"
+        ],
+        "005.png": [
+          "pill1"
+        ],
+        "006.png": [
+          "pill1"
+        ],
+        "007.png": [
+          "pill1"
+        ],
+        "008.png": [
+          "pill1"
+        ],
+        "009.png": [
+          "pill1"
+        ],
+        "010.png": [
+          "pill1"
+        ],
+        "011.png": [
+          "pill1"
+        ],
+        "012.png": [
+          "pill1"
+        ],
+        "013.png": [
+          "pill1"
+        ],
+        "014.png": [
+          "pill1"
+        ],
+        "015.png": [
+          "pill1"
+        ],
+        "016.png": [
+          "pill1"
+        ],
+        "017.png": [
+          "pill1"
+        ],
+        "018.png": [
+          "pill1"
+        ],
+        "019.png": [
+          "pill1"
+        ],
+        "020.png": [
+          "pill1"
+        ],
+        "021.png": [
+          "pill1"
+        ],
+        "022.png": [
+          "pill1"
+        ],
+        "023.png": [
+          "pill1"
+        ]
+      }
+    },
+    "screw": {
+      "scratch_head": {
+        "000.png": [
+          "screw2"
+        ],
+        "001.png": [
+          "screw2"
+        ],
+        "002.png": [
+          "screw2"
+        ],
+        "003.png": [
+          "screw2"
+        ],
+        "004.png": [
+          "screw2"
+        ],
+        "005.png": [
+          "screw2"
+        ],
+        "006.png": [
+          "screw2"
+        ],
+        "007.png": [
+          "screw2"
+        ],
+        "008.png": [
+          "screw2"
+        ],
+        "009.png": [
+          "screw2"
+        ],
+        "010.png": [
+          "screw2"
+        ],
+        "011.png": [
+          "screw2"
+        ],
+        "012.png": [
+          "screw2"
+        ],
+        "013.png": [
+          "screw2"
+        ],
+        "014.png": [
+          "screw2"
+        ],
+        "015.png": [
+          "screw2"
+        ],
+        "016.png": [
+          "screw2"
+        ],
+        "017.png": [
+          "screw2"
+        ],
+        "018.png": [
+          "screw2"
+        ],
+        "019.png": [
+          "screw2"
+        ],
+        "020.png": [
+          "screw2"
+        ],
+        "021.png": [
+          "screw2"
+        ],
+        "022.png": [
+          "screw2"
+        ],
+        "023.png": [
+          "screw2"
+        ]
+      },
+      "thread_side": {
+        "000.png": [
+          "screw1"
+        ],
+        "001.png": [
+          "screw1"
+        ],
+        "002.png": [
+          "screw1"
+        ],
+        "003.png": [
+          "screw1"
+        ],
+        "004.png": [
+          "screw1"
+        ],
+        "005.png": [
+          "screw1"
+        ],
+        "006.png": [
+          "screw1"
+        ],
+        "007.png": [
+          "screw1"
+        ],
+        "008.png": [
+          "screw1"
+        ],
+        "009.png": [
+          "screw1"
+        ],
+        "010.png": [
+          "screw1"
+        ],
+        "011.png": [
+          "screw1"
+        ],
+        "012.png": [
+          "screw1"
+        ],
+        "013.png": [
+          "screw1"
+        ],
+        "014.png": [
+          "screw1"
+        ],
+        "015.png": [
+          "screw1"
+        ],
+        "016.png": [
+          "screw1"
+        ],
+        "017.png": [
+          "screw1"
+        ],
+        "018.png": [
+          "screw1"
+        ],
+        "019.png": [
+          "screw1"
+        ],
+        "020.png": [
+          "screw1"
+        ],
+        "021.png": [
+          "screw1"
+        ],
+        "022.png": [
+          "screw1"
+        ]
+      },
+      "manipulated_front": {
+        "000.png": [
+          "screw1"
+        ],
+        "001.png": [
+          "screw1"
+        ],
+        "002.png": [
+          "screw1"
+        ],
+        "003.png": [
+          "screw1"
+        ],
+        "004.png": [
+          "screw1"
+        ],
+        "005.png": [
+          "screw1"
+        ],
+        "006.png": [
+          "screw1"
+        ],
+        "007.png": [
+          "screw1"
+        ],
+        "008.png": [
+          "screw1"
+        ],
+        "009.png": [
+          "screw1"
+        ],
+        "010.png": [
+          "screw1"
+        ],
+        "011.png": [
+          "screw1"
+        ],
+        "012.png": [
+          "screw1"
+        ],
+        "013.png": [
+          "screw1"
+        ],
+        "014.png": [
+          "screw1"
+        ],
+        "015.png": [
+          "screw1"
+        ],
+        "016.png": [
+          "screw1"
+        ],
+        "017.png": [
+          "screw1"
+        ],
+        "018.png": [
+          "screw1"
+        ],
+        "019.png": [
+          "screw1"
+        ],
+        "020.png": [
+          "screw1"
+        ],
+        "021.png": [
+          "screw1"
+        ],
+        "022.png": [
+          "screw1"
+        ],
+        "023.png": [
+          "screw1"
+        ]
+      },
+      "scratch_neck": {
+        "000.png": [
+          "screw3"
+        ],
+        "001.png": [
+          "screw3"
+        ],
+        "002.png": [
+          "screw3"
+        ],
+        "003.png": [
+          "screw3"
+        ],
+        "004.png": [
+          "screw3"
+        ],
+        "005.png": [
+          "screw3"
+        ],
+        "006.png": [
+          "screw3"
+        ],
+        "007.png": [
+          "screw3"
+        ],
+        "008.png": [
+          "screw3"
+        ],
+        "009.png": [
+          "screw3"
+        ],
+        "010.png": [
+          "screw3"
+        ],
+        "011.png": [
+          "screw3"
+        ],
+        "012.png": [
+          "screw3"
+        ],
+        "013.png": [
+          "screw3"
+        ],
+        "014.png": [
+          "screw3"
+        ],
+        "015.png": [
+          "screw3"
+        ],
+        "016.png": [
+          "screw3"
+        ],
+        "017.png": [
+          "screw3"
+        ],
+        "018.png": [
+          "screw3"
+        ],
+        "019.png": [
+          "screw3"
+        ],
+        "020.png": [
+          "screw3"
+        ],
+        "021.png": [
+          "screw3"
+        ],
+        "022.png": [
+          "screw3"
+        ],
+        "023.png": [
+          "screw3"
+        ],
+        "024.png": [
+          "screw3"
+        ]
+      },
+      "thread_top": {
+        "000.png": [
+          "screw1"
+        ],
+        "001.png": [
+          "screw1"
+        ],
+        "002.png": [
+          "screw1"
+        ],
+        "003.png": [
+          "screw1"
+        ],
+        "004.png": [
+          "screw1"
+        ],
+        "005.png": [
+          "screw1"
+        ],
+        "006.png": [
+          "screw1"
+        ],
+        "007.png": [
+          "screw1"
+        ],
+        "008.png": [
+          "screw1"
+        ],
+        "009.png": [
+          "screw1"
+        ],
+        "010.png": [
+          "screw1"
+        ],
+        "011.png": [
+          "screw1"
+        ],
+        "012.png": [
+          "screw1"
+        ],
+        "013.png": [
+          "screw1"
+        ],
+        "014.png": [
+          "screw1"
+        ],
+        "015.png": [
+          "screw1"
+        ],
+        "016.png": [
+          "screw1"
+        ],
+        "017.png": [
+          "screw1"
+        ],
+        "018.png": [
+          "screw1"
+        ],
+        "019.png": [
+          "screw1"
+        ],
+        "020.png": [
+          "screw1"
+        ],
+        "021.png": [
+          "screw1"
+        ],
+        "022.png": [
+          "screw1"
+        ]
+      }
+    },
+    "toothbrush": {
+      "defective": {
+        "000.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "001.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "002.png": [
+          "toothbrush3"
+        ],
+        "003.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "004.png": [
+          "toothbrush2"
+        ],
+        "005.png": [
+          "toothbrush2"
+        ],
+        "006.png": [
+          "toothbrush2"
+        ],
+        "007.png": [
+          "toothbrush1",
+          "toothbrush2"
+        ],
+        "008.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "009.png": [
+          "toothbrush1"
+        ],
+        "010.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "011.png": [
+          "toothbrush2"
+        ],
+        "012.png": [
+          "toothbrush2"
+        ],
+        "013.png": [
+          "toothbrush1"
+        ],
+        "014.png": [
+          "toothbrush1"
+        ],
+        "015.png": [
+          "toothbrush1",
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "016.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "017.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "018.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "019.png": [
+          "toothbrush1",
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "020.png": [
+          "toothbrush1",
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "021.png": [
+          "toothbrush3"
+        ],
+        "022.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "023.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "024.png": [
+          "toothbrush2"
+        ],
+        "025.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "026.png": [
+          "toothbrush3"
+        ],
+        "027.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "028.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ],
+        "029.png": [
+          "toothbrush2",
+          "toothbrush3"
+        ]
+      }
+    },
+    "transistor": {
+      "bent_lead": {
+        "000.png": [
+          "transistor2"
+        ],
+        "001.png": [
+          "transistor2"
+        ],
+        "002.png": [
+          "transistor2"
+        ],
+        "003.png": [
+          "transistor2"
+        ],
+        "004.png": [
+          "transistor2"
+        ],
+        "005.png": [
+          "transistor2"
+        ],
+        "006.png": [
+          "transistor2"
+        ],
+        "007.png": [
+          "transistor2"
+        ],
+        "008.png": [
+          "transistor2"
+        ],
+        "009.png": [
+          "transistor2"
+        ]
+      },
+      "cut_lead": {
+        "000.png": [
+          "transistor2"
+        ],
+        "001.png": [
+          "transistor2"
+        ],
+        "002.png": [
+          "transistor2"
+        ],
+        "003.png": [
+          "transistor2"
+        ],
+        "004.png": [
+          "transistor2"
+        ],
+        "005.png": [
+          "transistor2"
+        ],
+        "006.png": [
+          "transistor2"
+        ],
+        "007.png": [
+          "transistor2"
+        ],
+        "008.png": [
+          "transistor2"
+        ],
+        "009.png": [
+          "transistor2"
+        ]
+      },
+      "damaged_case": {
+        "000.png": [
+          "transistor1"
+        ],
+        "001.png": [
+          "transistor1"
+        ],
+        "002.png": [
+          "transistor1"
+        ],
+        "003.png": [
+          "transistor1"
+        ],
+        "004.png": [
+          "transistor1"
+        ],
+        "005.png": [
+          "transistor1"
+        ],
+        "006.png": [
+          "transistor1"
+        ],
+        "007.png": [
+          "transistor1"
+        ],
+        "008.png": [
+          "transistor1"
+        ],
+        "009.png": [
+          "transistor1"
+        ]
+      },
+      "misplaced": {
+        "000.png": [
+          "transistor1",
+          "transistor2"
+        ],
+        "001.png": [
+          "transistor1",
+          "transistor2"
+        ],
+        "002.png": [
+          "transistor1",
+          "transistor2"
+        ],
+        "003.png": [
+          "transistor1",
+          "transistor2"
+        ],
+        "004.png": [
+          "transistor1",
+          "transistor2"
+        ],
+        "005.png": [
+          "transistor1",
+          "transistor2"
+        ],
+        "006.png": [
+          "transistor1",
+          "transistor2"
+        ],
+        "007.png": [
+          "transistor1",
+          "transistor2"
+        ],
+        "008.png": [
+          "transistor1",
+          "transistor2"
+        ],
+        "009.png": [
+          "transistor1",
+          "transistor2"
+        ]
+      }
+    },
+    "zipper": {
+      "broken_teeth": {
+        "000.png": [
+          "zipper2"
+        ],
+        "001.png": [
+          "zipper2"
+        ],
+        "002.png": [
+          "zipper2"
+        ],
+        "003.png": [
+          "zipper2"
+        ],
+        "004.png": [
+          "zipper2"
+        ],
+        "005.png": [
+          "zipper2"
+        ],
+        "006.png": [
+          "zipper2"
+        ],
+        "007.png": [
+          "zipper2"
+        ],
+        "008.png": [
+          "zipper2"
+        ],
+        "009.png": [
+          "zipper2"
+        ],
+        "010.png": [
+          "zipper2"
+        ],
+        "011.png": [
+          "zipper2"
+        ],
+        "012.png": [
+          "zipper2"
+        ],
+        "013.png": [
+          "zipper2"
+        ],
+        "014.png": [
+          "zipper2"
+        ],
+        "015.png": [
+          "zipper2"
+        ],
+        "016.png": [
+          "zipper2"
+        ],
+        "017.png": [
+          "zipper2"
+        ],
+        "018.png": [
+          "zipper2"
+        ]
+      },
+      "fabric_border": {
+        "000.png": [
+          "zipper3"
+        ],
+        "001.png": [
+          "zipper3"
+        ],
+        "002.png": [
+          "zipper3"
+        ],
+        "003.png": [
+          "zipper3"
+        ],
+        "004.png": [
+          "zipper3"
+        ],
+        "005.png": [
+          "zipper3"
+        ],
+        "006.png": [
+          "zipper3"
+        ],
+        "007.png": [
+          "zipper3"
+        ],
+        "008.png": [
+          "zipper3"
+        ],
+        "009.png": [
+          "zipper3"
+        ],
+        "010.png": [
+          "zipper3"
+        ],
+        "011.png": [
+          "zipper3"
+        ],
+        "012.png": [
+          "zipper3"
+        ],
+        "013.png": [
+          "zipper3"
+        ],
+        "014.png": [
+          "zipper3"
+        ],
+        "015.png": [
+          "zipper3"
+        ],
+        "016.png": [
+          "zipper3"
+        ]
+      },
+      "split_teeth": {
+        "000.png": [
+          "zipper2"
+        ],
+        "001.png": [
+          "zipper2"
+        ],
+        "002.png": [
+          "zipper2"
+        ],
+        "003.png": [
+          "zipper2"
+        ],
+        "004.png": [
+          "zipper2"
+        ],
+        "005.png": [
+          "zipper2"
+        ],
+        "006.png": [
+          "zipper2"
+        ],
+        "007.png": [
+          "zipper2"
+        ],
+        "008.png": [
+          "zipper2"
+        ],
+        "009.png": [
+          "zipper2"
+        ],
+        "010.png": [
+          "zipper2"
+        ],
+        "011.png": [
+          "zipper2"
+        ],
+        "012.png": [
+          "zipper2"
+        ],
+        "013.png": [
+          "zipper2"
+        ],
+        "014.png": [
+          "zipper2"
+        ],
+        "015.png": [
+          "zipper2"
+        ],
+        "016.png": [
+          "zipper2"
+        ],
+        "017.png": [
+          "zipper2"
+        ]
+      },
+      "combined": {
+        "000.png": [
+          "zipper2"
+        ],
+        "001.png": [
+          "zipper2"
+        ],
+        "002.png": [
+          "zipper2"
+        ],
+        "003.png": [
+          "zipper1",
+          "zipper3"
+        ],
+        "004.png": [
+          "zipper1",
+          "zipper3"
+        ],
+        "005.png": [
+          "zipper2"
+        ],
+        "006.png": [
+          "zipper2",
+          "zipper3"
+        ],
+        "007.png": [
+          "zipper1",
+          "zipper2"
+        ],
+        "008.png": [
+          "zipper1",
+          "zipper2"
+        ],
+        "009.png": [
+          "zipper1",
+          "zipper2"
+        ],
+        "010.png": [
+          "zipper2",
+          "zipper3"
+        ],
+        "011.png": [
+          "zipper1",
+          "zipper3"
+        ],
+        "012.png": [
+          "zipper1",
+          "zipper2"
+        ],
+        "013.png": [
+          "zipper2",
+          "zipper3"
+        ],
+        "014.png": [
+          "zipper1",
+          "zipper2"
+        ],
+        "015.png": [
+          "zipper2",
+          "zipper3"
+        ]
+      },
+      "fabric_interior": {
+        "000.png": [
+          "zipper1"
+        ],
+        "001.png": [
+          "zipper1"
+        ],
+        "002.png": [
+          "zipper1"
+        ],
+        "003.png": [
+          "zipper1"
+        ],
+        "004.png": [
+          "zipper1"
+        ],
+        "005.png": [
+          "zipper1"
+        ],
+        "006.png": [
+          "zipper1"
+        ],
+        "007.png": [
+          "zipper1"
+        ],
+        "008.png": [
+          "zipper1"
+        ],
+        "009.png": [
+          "zipper1"
+        ],
+        "010.png": [
+          "zipper1"
+        ],
+        "011.png": [
+          "zipper1"
+        ],
+        "012.png": [
+          "zipper1"
+        ],
+        "013.png": [
+          "zipper1"
+        ],
+        "014.png": [
+          "zipper1"
+        ],
+        "015.png": [
+          "zipper1"
+        ]
+      },
+      "rough": {
+        "000.png": [
+          "zipper2"
+        ],
+        "001.png": [
+          "zipper2"
+        ],
+        "002.png": [
+          "zipper2"
+        ],
+        "003.png": [
+          "zipper2"
+        ],
+        "004.png": [
+          "zipper2"
+        ],
+        "005.png": [
+          "zipper2"
+        ],
+        "006.png": [
+          "zipper2"
+        ],
+        "007.png": [
+          "zipper2"
+        ],
+        "008.png": [
+          "zipper2"
+        ],
+        "009.png": [
+          "zipper2"
+        ],
+        "010.png": [
+          "zipper2"
+        ],
+        "011.png": [
+          "zipper2"
+        ],
+        "012.png": [
+          "zipper2"
+        ],
+        "013.png": [
+          "zipper2"
+        ],
+        "014.png": [
+          "zipper2"
+        ],
+        "015.png": [
+          "zipper2"
+        ],
+        "016.png": [
+          "zipper2"
+        ]
+      },
+      "squeezed_teeth": {
+        "000.png": [
+          "zipper2"
+        ],
+        "001.png": [
+          "zipper2"
+        ],
+        "002.png": [
+          "zipper2"
+        ],
+        "003.png": [
+          "zipper2"
+        ],
+        "004.png": [
+          "zipper2"
+        ],
+        "005.png": [
+          "zipper2"
+        ],
+        "006.png": [
+          "zipper2"
+        ],
+        "007.png": [
+          "zipper2"
+        ],
+        "008.png": [
+          "zipper2"
+        ],
+        "009.png": [
+          "zipper2"
+        ],
+        "010.png": [
+          "zipper2"
+        ],
+        "011.png": [
+          "zipper2"
+        ],
+        "012.png": [
+          "zipper2"
+        ],
+        "013.png": [
+          "zipper2"
+        ],
+        "014.png": [
+          "zipper2"
+        ],
+        "015.png": [
+          "zipper2"
+        ]
+      }
+    }
+  },
+  "normalization": {
+    "metalnut1": "metal_nut1",
+    "metalnut2": "metal_nut2"
+  },
+  "version": 1
+}
